@@ -1,0 +1,23 @@
+{
+  "product": "pisowifi",
+  "channel": "stable",
+  "version": "0.2.1",
+  "issued_at": 1792398976,
+  "notes": "Auto-pause, fonts for your name, your own button colour and a System page\n\n- Auto-pause: a phone's time stops when it leaves the WiFi and starts again\n  when it's back. Choose 2 to 30 minutes, or off, on the Rates page.\n- Customer page: pick a font and thickness for your name and a colour for\n  the coin button. The time card shows the date too, and the logo has no\n  glow.\n- Settings > System: the vendo's software, operating system and hardware,\n  with Copy details. It warns when the vendo's clock is off.",
+  "files": [
+    {
+      "kind": "vendo",
+      "target": "armv7-unknown-linux-musleabihf",
+      "path": "../v0.2.1/pisowifi-armv7.tar.gz",
+      "sha256": "c6ffe9caeed375b00161b022fdf2cb5a9af008ed5a01f4ce7d5f398705eb4c22",
+      "size": 4792482
+    },
+    {
+      "kind": "hub",
+      "target": "x86_64-unknown-linux-musl",
+      "path": "../v0.2.1/pisowifi-hub-x86_64.tar.gz",
+      "sha256": "ee8d4645f72ad63500ecac446e54a0bcbbd23c122de8ef60c7c0a9ee5824f373",
+      "size": 5286401
+    }
+  ]
+}
