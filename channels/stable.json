@@ -1,0 +1,23 @@
+{
+  "product": "pisowifi",
+  "channel": "stable",
+  "version": "0.2.5",
+  "issued_at": 1794228112,
+  "notes": "Smoother on phones, and a Glossy or Plain shop name\n\n- The customer page runs smoother on phones, especially in the Glass look:\n  the panes are frosted without a live blur (they look the same), the\n  coin ring and time bar do less work, and the page holds still behind\n  pop-up sheets.\n- Customer page > Font for the name has a new Style switch: Glossy (glass\n  in your accent colour) or Plain (dark text).",
+  "files": [
+    {
+      "kind": "vendo",
+      "target": "armv7-unknown-linux-musleabihf",
+      "path": "../v0.2.5/pisowifi-armv7.tar.gz",
+      "sha256": "fd0805796e01499658094c2f23575428c6b7ce07f66cbf80a90f282048310653",
+      "size": 4844795
+    },
+    {
+      "kind": "hub",
+      "target": "x86_64-unknown-linux-musl",
+      "path": "../v0.2.5/pisowifi-hub-x86_64.tar.gz",
+      "sha256": "c4f840961992604e22fb413ce92205fce521c78dd4436e0cc440545f28ce1db9",
+      "size": 5335356
+    }
+  ]
+}
